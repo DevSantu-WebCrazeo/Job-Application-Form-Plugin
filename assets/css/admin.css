@@ -1,0 +1,270 @@
+/* Admin Styles for Job Application Form */
+
+.jaf-admin-wrap {
+    margin: 20px 0;
+}
+
+.jaf-admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.jaf-admin-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.jaf-admin-filters {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.jaf-filter-form {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.jaf-filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.jaf-filter-group label {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.jaf-filter-group input[type="text"],
+.jaf-filter-group select {
+    min-width: 200px;
+}
+
+.jaf-admin-stats {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.jaf-admin-stats p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.jaf-submissions-table {
+    margin-top: 20px;
+}
+
+.jaf-submissions-table th {
+    font-weight: 600;
+}
+
+.jaf-submissions-table .column-id {
+    width: 60px;
+}
+
+.jaf-submissions-table .column-unique-id {
+    width: 150px;
+}
+
+.jaf-submissions-table .column-name {
+    width: 150px;
+}
+
+.jaf-submissions-table .column-email {
+    width: 200px;
+}
+
+.jaf-submissions-table .column-phone {
+    width: 120px;
+}
+
+.jaf-submissions-table .column-position {
+    width: 150px;
+}
+
+.jaf-submissions-table .column-page {
+    width: 200px;
+}
+
+.jaf-submissions-table .column-date {
+    width: 150px;
+}
+
+.jaf-submissions-table .column-actions {
+    width: 180px;
+}
+
+.jaf-submissions-table code {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.jaf-submissions-table .jaf-view-btn,
+.jaf-submissions-table .jaf-delete-btn {
+    margin-right: 5px;
+}
+
+.jaf-submissions-table .column-actions a.button {
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.jaf-pagination {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.jaf-no-results {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.jaf-no-results p {
+    margin: 0;
+    color: #646970;
+    font-size: 14px;
+}
+
+/* Modal Styles */
+.jaf-modal {
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.jaf-modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.jaf-modal-header {
+    padding: 20px;
+    background: #f6f7f7;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jaf-modal-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.jaf-modal-close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.jaf-modal-close:hover,
+.jaf-modal-close:focus {
+    color: #000;
+}
+
+.jaf-modal-body {
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.jaf-detail-row {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.jaf-detail-row:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.jaf-detail-label {
+    font-weight: 600;
+    color: #1d2327;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.jaf-detail-value {
+    color: #50575e;
+    word-wrap: break-word;
+}
+
+.jaf-detail-value a {
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.jaf-detail-value a:hover {
+    text-decoration: underline;
+}
+
+.jaf-detail-value code {
+    background: #f0f0f1;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+/* Settings Page */
+.jaf-settings-wrap {
+    max-width: 800px;
+}
+
+.jaf-settings-form {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .jaf-filter-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .jaf-filter-group input[type="text"],
+    .jaf-filter-group select {
+        width: 100%;
+    }
+    
+    .jaf-modal-content {
+        width: 95%;
+        margin: 10% auto;
+    }
+}
+

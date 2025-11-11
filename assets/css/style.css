@@ -1,0 +1,62 @@
+#jaf-resume{
+    display: none;
+}
+
+.jaf-form-group{
+    margin-bottom: 15px;
+}
+.jaf-form-group .jaf-input,
+.jaf-form-group .jaf-select{
+    min-height: 60px; 
+    padding: 10px 12px !important; 
+    font-weight: 400 !important;
+    border-color: #DADADA;
+}
+.jaf-form-group .jaf-textarea{
+    font-weight: 400 !important;
+}
+.jaf-file-upload-wrapper{
+    background-color: #FAFCFF;
+    border: 1px solid #DADADA; 
+    border-radius: 5px; padding: 5px;
+}
+.jaf-file-upload-wrapper .jaf-file-button{
+    background-color: #DCEEFF;
+    color: #2362ED; border: 0px;
+}
+.jaf-submit-button{
+    border: 0px !important; margin: auto; width: 240px !important; height: 50px;
+    font-size: 20px !important; font-weight: 500 !important; border-radius: 5px !important;
+}
+
+.jaf-form-row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.jaf-form-group-half{width: 100%;}
+
+.jaf-file-list .jaf-file-item{
+    background: #DCEEFF;
+    margin-top: 10px;
+    padding: 10px 0px 10px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.jaf-file-list .jaf-file-remove{
+    padding: 0 12px; border: 0; color: #000;
+    font-size: 40px; line-height: 30px; background: #dceeff;
+}
+.jaf-file-list .jaf-file-remove:hover{background: #d7ecff;}
+.jaf-message-container.error{color: #f00;}
+.jaf-message-container.success{color: #037e00;}
+
+@media(max-width: 767px) {
+    .jaf-form-row{
+        flex-direction: column;
+         gap: 0px;
+    }
+}
